@@ -1,0 +1,28 @@
+*{margin:0;padding:0;box-sizing: border-box; }
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: royalblue;
+}
+h1{
+    color:aliceblue;
+}
+.ind{
+    margin: 20px;
+}
+
+button{
+    margin:auto;
+    padding: 15px 20px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.res{
+    margin: 1.2em;
+    font-size: 1.2rem;
+}

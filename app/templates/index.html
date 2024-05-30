@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allergen Detector</title>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <div class="contents">
+        <div class="boxes">
+            <h1>Allergen Detector</h1>
+        <div class="ind">
+            <label>Food Product: <input type="text" id="food_product"></label><br>
+        </div>
+        <div class="ind">
+            <label>Main Ingredient: <input type="text" id="main_ingredient"></label><br>
+        </div>
+        <div class="ind"><label>Sweetener: <input type="text" id="sweetener"></label><br></div>
+        <div class="ind"><label>Fat/Oil: <input type="text" id="fat_oil"></label><br></div>
+        <div class="ind"><label>Seasoning: <input type="text" id="seasoning"></label><br></div>
+        <div class="ind"><label>Allergens: <input type="text" id="allergens"></label><br></div>
+        <button onclick="checkAllergens()">Check</button>
+        </div>
+        <p id="result" class="res"></p>
+    </div>
+</body>
+</html>
